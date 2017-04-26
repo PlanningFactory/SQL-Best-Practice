@@ -17,7 +17,6 @@ CREATE TABLE control.tProcessLog
 	ProcessGroup NVARCHAR(255) NOT NULL,
 	ProcessStep NVARCHAR(255) NOT NULL,
 	StartDateTime DATETIME NOT NULL,
-	EndDateTime DATETIME NOT NULL,
 	Status NVARCHAR(255) NOT NULL,
 	EffectedRows BIGINT NOT NULL,
 	Message NVARCHAR(MAX)
